@@ -1,9 +1,20 @@
-# CSV Utility 1.0
+# CSV Utility
 
-The first distributable release of CSV Utility.
+A fast native macOS CSV editor built for files that ordinary spreadsheet tools
+struggle to open.
 
-- Open and navigate CSV files ranging from small tables to multi-gigabyte datasets.
-- Edit, multi-edit, paste, sort, filter, search, replace, clean, and profile data.
-- Compare unsaved changes against the saved file with the inline split diff view.
-- Preserve responsive scrolling and bounded memory use through virtualized rendering and persistent row indexes.
-- Configure appearance, grid behaviour, large-file handling, backups, and automatic updates.
+## Install
+
+[Download the latest CSV Utility DMG](https://github.com/kyetbed/CSVUtility-Releases/releases/latest/download/CSV-Utility-latest.dmg)
+
+1. Open the downloaded DMG.
+2. Drag **CSV Utility** into **Applications**.
+3. Open CSV Utility from Applications.
+
+CSV Utility requires macOS 14 or later. Releases are universal for Apple
+Silicon and Intel, signed with a Developer ID certificate, and notarized by
+Apple.
+
+The application source is maintained separately in a private repository. This
+public repository contains only distributable release artifacts required for
+installation and signed in-app updates.
